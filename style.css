@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-right: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.income {
+    background-color: lightgreen;
+}
+
+.expense {
+    background-color: salmon;
+}
+
+.total-column {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#transaction-details {
+    margin-bottom: 20px;
+}
+
+form {
+    border: 1px solid #ddd;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label, form input, form select, form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.total-amount {
+    display: block;
+    margin-top: 20px;
+    text-align: right;
+    color: green;
+}
